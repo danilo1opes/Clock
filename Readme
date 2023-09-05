@@ -1,0 +1,1 @@
+Neste projeto tem como principal finalidade aprimorar competências e habilidades na linguagem de programação JavaScript. O objetivo primordial consiste na expansão do conhecimento e na melhoria das aptidões, com ênfase na capacidade de aplicar essas habilidades de maneira eficaz e proficiente em cenários práticos.
