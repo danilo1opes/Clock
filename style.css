@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    animation: Any 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes Any{
+    from {background-color: rgb(29, 28, 28);}
+    to {background-color: rgb(39, 33, 33);}
+}
+
+.blinking {
+    animation: blink 1s infinite;
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+@keyframes blink {
+    0%, 49% {
+        opacity: 1;
+    }
+    50%, 100% {
+        opacity: 0;
+    }
+}
+
+.clockOne, #clockTwo, #clockThree, #clockFour{
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.time{
+    font-size: 24px;
+}
+
+.country {
+    font-size: 25px;
+    font-family: cursive;
+}
+
